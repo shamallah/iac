@@ -1,5 +1,5 @@
 [ec2]
-
+<ec2-hostname/IP>
 
 [ec2:vars]
 domain=

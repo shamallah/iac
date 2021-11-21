@@ -16,5 +16,6 @@ Edit the contents of the site at ./site/index.html to match what you want to inc
 
 Run the ansible script tp deploy your configuration.
 
-ansible-playbook -i inventory nginx.yml
-
+```ShellSession
+$ ansible-playbook -i inventory nginx.yml
+```
