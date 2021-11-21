@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginxwebserver
+  namespace: default
+  labels:
+    app: nginxwebserver
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginxwebserver
+  template:
+    metadata:
+      labels:
+        app: nginxwebserver
+    spec:
+      containers:
+        - name: nginx-hello
+          image: nginxdemos/hello
+          ports:
+            - containerPort: 80
+              name: nginx-hello
+            - containerPort: 443
+              name: nginx-ssl
+
