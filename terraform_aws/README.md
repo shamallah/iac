@@ -1,4 +1,4 @@
-# Deploy two ec2 instances on AWS using Terraform
+# Deploy two EC2 instances on AWS using Terraform
 
 The script allows you to install two ec2 instances on AWS.
 
