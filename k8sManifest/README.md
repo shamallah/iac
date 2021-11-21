@@ -1,4 +1,4 @@
-#Manifest for Nginx Deployment on Kubernetes
+# Manifest for Nginx Deployment on Kubernetes
 
 This deployment runs a Kubernetes application for Nginx.
 
