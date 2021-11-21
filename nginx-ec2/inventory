@@ -1,0 +1,7 @@
+[ec2]
+
+
+[ec2:vars]
+domain=
+ansible_user=
+ansible_ssh_private_key_file=
