@@ -9,9 +9,9 @@ You also need to have AWSCLI configured to your local machine.
 
 Run the commands below to get started.
 ```ShellSession
-terraform init
-terraform plan
-terraform apply
+$ terraform init
+$ terraform plan
+$ terraform apply
 
 ```
 
